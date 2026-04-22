@@ -69,7 +69,7 @@ exports.handler = async (event) => {
         Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Anita Paniagua <onboarding@resend.dev>",
+        from: "Anita Paniagua <radiografia@contact.academiaemprendeser.com>",
         to: [email],
         subject: "Tu Radiografía del Negocio del Conocimiento",
         html,
