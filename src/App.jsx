@@ -681,94 +681,43 @@ export default function RadiografiaApp() {
               </p>
             </div>
 
-            {/* CTA */}
-            <div
-              style={{
-                padding: "28px 40px",
-                textAlign: "center",
-                borderTop: `1px solid ${COLORS.border}`,
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-block",
-                  background: COLORS.amberLight,
-                  borderRadius: 8,
-                  padding: "5px 14px",
-                  marginBottom: 14,
-                }}
-              >
-                <p
-                  style={{
-                    fontSize: 11,
-                    fontFamily: "'Arial', sans-serif",
-                    fontWeight: 700,
-                    letterSpacing: "0.10em",
-                    textTransform: "uppercase",
-                    color: COLORS.amber,
-                    margin: 0,
-                  }}
-                >
-                  🔔 Abre el martes 21 de abril
-                </p>
-              </div>
-
-              <p
-                style={{
-                  fontSize: 15,
-                  fontWeight: 700,
-                  color: COLORS.text,
-                  marginBottom: 8,
-                }}
-              >
-                ¿Lista para convertir este diagnóstico en acción?
-              </p>
-
-              <p
-                style={{
-                  fontSize: 13,
-                  fontFamily: "'Arial', sans-serif",
-                  color: COLORS.textMuted,
-                  lineHeight: 1.6,
-                  marginBottom: 20,
-                }}
-              >
-                La Masterclass <strong>Del Libro a la IAcción</strong> abre el martes
-                21 de abril — completamente gratis. Reserva tu lugar ahora y recibe la
-                guía descargable de inmediato.
-              </p>
-
-              <a
-                href="https://www.academiaemprendeser.com/EsperaMC"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: "inline-block",
-                  background: COLORS.teal,
-                  color: COLORS.white,
-                  textDecoration: "none",
-                  borderRadius: 10,
-                  padding: "14px 32px",
-                  fontSize: 14,
-                  fontFamily: "'Arial', sans-serif",
-                  fontWeight: 600,
-                  letterSpacing: "0.02em",
-                }}
-              >
-                Reservar mi lugar gratis →
-              </a>
-
-              <p
-                style={{
-                  marginTop: 14,
-                  fontSize: 11,
-                  fontFamily: "'Arial', sans-serif",
-                  color: COLORS.textMuted,
-                }}
-              >
-                Acceso gratuito · Incluye guía descargable · Sin compromisos
-              </p>
-            </div>
+           {/* Cierre */}
+<div style={{
+  padding: "28px 40px",
+  textAlign: "center",
+  borderTop: `1px solid ${COLORS.border}`,
+}}>
+  <p style={{
+    fontSize: 15,
+    fontWeight: 700,
+    color: COLORS.text,
+    marginBottom: 8,
+  }}>¿Qué te pareció la herramienta?</p>
+  <p style={{
+    fontSize: 13,
+    fontFamily: "'Arial', sans-serif",
+    color: COLORS.textMuted,
+    lineHeight: 1.6,
+    marginBottom: 20,
+  }}>
+    Me encantaría leer tu experiencia y cualquier pregunta que tengas.
+  </p>
+  <a
+    href="mailto:emprendeser@anitapaniagua.com?subject=Mi diagnóstico de conocimiento"
+    style={{
+      display: "inline-block",
+      background: COLORS.teal,
+      color: COLORS.white,
+      textDecoration: "none",
+      borderRadius: 10,
+      padding: "14px 32px",
+      fontSize: 14,
+      fontFamily: "'Arial', sans-serif",
+      fontWeight: 600,
+      letterSpacing: "0.02em",
+    }}
+  >Escríbeme →</a>
+</div>
           </div>
         </div>
       )}
